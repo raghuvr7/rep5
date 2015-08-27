@@ -76,7 +76,7 @@
     </target>
               	<target name="war" depends="build">
 
-              	           		<war destfile="dist/DynWebPro.war" webxml="WebContent/WEB-INF/web.xml">
+              	           		<war destfile="DynWebPro.war" webxml="WebContent/WEB-INF/web.xml">
 
               	           			<fileset dir="WebContent"/>
 
