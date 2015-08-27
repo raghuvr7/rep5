@@ -37,6 +37,7 @@
         <path refid="Web App Libraries.libraryclasspath"/>
         <path refid="EAR Libraries.libraryclasspath"/>
         <pathelement location="WebContent/WEB-INF/lib/ojdbc14.jar"/>
+    	<pathelement location="c:/lib/servlet-api.jar"/>
     </path>
     <target name="init">
         <mkdir dir="build/classes"/>
